@@ -59,10 +59,12 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Christina1701/filechooser-plugin"
+    "url": "https://github.com/Christina1701/capacitor-plugin-filechooser"
   },
   "bugs": {
-    "url": "https://github.com/Christina1701/filechooser-plugin/issues"
+    "url": "https://github.com/Christina1701/capacitor-plugin-filechooser/issues"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@capacitor/core": "^2.4.0"
+  }
 }
