@@ -83,6 +83,14 @@ public class FileChooserPlugin extends Plugin {
 
         if (requestCode == REQUEST_DOCUMENTS) {
             JSObject ret = new JSObject();
+
+            // user did not select anything
+            if (data == null) {
+                ret.put("uri", "null");
+                savedCall.success(ret);
+                return;
+            }
+
             Uri uri = data.getData();
             String returnUri = "";
             if (uri != null) {

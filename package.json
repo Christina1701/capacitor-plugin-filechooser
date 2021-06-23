@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-filechooser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Choose Files and get correct uri for android",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
